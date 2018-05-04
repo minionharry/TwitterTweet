@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot display_value="Tweet Incident">1bf93436dbb11300d86f9444ca961967</latest_snapshot>
+        <name>Tweet Incident</name>
+        <remote_trigger_id>97f93436dbb11300d86f9444ca96197e</remote_trigger_id>
+        <show_draft_actions>false</show_draft_actions>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:53</sys_created_on>
+        <sys_id>a3d6b0bedb711300d86f9444ca961992</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Tweet Incident</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_update_name>sys_hub_flow_a3d6b0bedb711300d86f9444ca961992</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:31:32</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

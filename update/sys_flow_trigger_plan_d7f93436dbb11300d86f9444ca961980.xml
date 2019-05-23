@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_flow_trigger_plan">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d7f93436dbb11300d86f9444ca961980","name":"plan"}}</plan>
         <plan_id>a3d6b0bedb711300d86f9444ca961992</plan_id>
-        <snapshot>1bf93436dbb11300d86f9444ca961967</snapshot>
+        <snapshot>1dddc0ae4fe5b30035e0fdb28110c7b8</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:31:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d7f93436dbb11300d86f9444ca961980</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>97f93436dbb11300d86f9444ca96197e</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_flow_trigger_plan_d7f93436dbb11300d86f9444ca961980</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>

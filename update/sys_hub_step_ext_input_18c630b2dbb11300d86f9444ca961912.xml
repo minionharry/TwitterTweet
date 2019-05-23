@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_step_ext_input">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_ext_input">
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -61,11 +60,13 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:17:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>18c630b2dbb11300d86f9444ca961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>var__m_sys_hub_step_ext_input_9cc630b2dbb11300d86f9444ca96190a</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_hub_step_ext_input_18c630b2dbb11300d86f9444ca961912</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>

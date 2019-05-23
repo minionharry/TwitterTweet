@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_flow_record_trigger">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_record_trigger">
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition table="incident">short_descriptionVALCHANGES<item endquery="false" field="short_description" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
@@ -8,14 +7,19 @@
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
         <on_update>true</on_update>
+        <run_when_setting/>
+        <run_when_user_list/>
+        <run_when_user_setting/>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:31:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>97f93436dbb11300d86f9444ca96197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_flow_record_trigger_97f93436dbb11300d86f9444ca96197e</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>

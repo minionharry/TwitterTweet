@@ -4,7 +4,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Add link to tweet as worknote</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Tweet Incident">a3d6b0bedb711300d86f9444ca961992</flow>
@@ -12,118 +12,118 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:49</sys_created_on>
-        <sys_id>b56493cd4f8233000d648020a310c73c</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_created_on>2019-06-13 19:51:53</sys_created_on>
+        <sys_id>3d71ef0d4fc233000d648020a310c722</sys_id>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
-        <sys_update_name>sys_hub_action_instance_b56493cd4f8233000d648020a310c73c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 19:23:02</sys_updated_on>
-        <ui_id>8baef66c-9bdb-4624-90b8-dc75aafbd16f</ui_id>
+        <sys_update_name>sys_hub_action_instance_3d71ef0d4fc233000d648020a310c722</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-13 20:03:11</sys_updated_on>
+        <ui_id>2616ebd4-fd02-4afe-94f4-5593508c6ddf</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b56493cd4f8233000d648020a310c73c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3d71ef0d4fc233000d648020a310c722"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>b56493cd4f8233000d648020a310c73c</document_key>
+        <document_key>3d71ef0d4fc233000d648020a310c722</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:49</sys_created_on>
-        <sys_id>716493cd4f8233000d648020a310c742</sys_id>
+        <sys_created_on>2019-06-13 19:52:00</sys_created_on>
+        <sys_id>6b71ef0d4fc233000d648020a310c7a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:49</sys_updated_on>
-        <value>incident</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>b56493cd4f8233000d648020a310c73c</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:57</sys_created_on>
-        <sys_id>f76493cd4f8233000d648020a310c7d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:57</sys_updated_on>
+        <sys_updated_on>2019-06-13 19:52:00</sys_updated_on>
         <value>incident</value>
         <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b56493cd4f8233000d648020a310c73c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>b56493cd4f8233000d648020a310c73c</id>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d71ef0d4fc233000d648020a310c722</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:49</sys_created_on>
-        <sys_id>3d6493cd4f8233000d648020a310c741</sys_id>
+        <sys_created_on>2019-06-13 19:51:53</sys_created_on>
+        <sys_id>f171ef0d4fc233000d648020a310c728</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>{{Created or Updated_1.current}}</value>
-    </sys_element_mapping>
+        <sys_updated_on>2019-06-13 19:51:53</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3d71ef0d4fc233000d648020a310c722"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
-        <id>b56493cd4f8233000d648020a310c73c</id>
+        <id>3d71ef0d4fc233000d648020a310c722</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:57</sys_created_on>
-        <sys_id>b36493cd4f8233000d648020a310c7d0</sys_id>
+        <sys_created_on>2019-06-13 19:52:00</sys_created_on>
+        <sys_id>2771ef0d4fc233000d648020a310c7a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:57</sys_updated_on>
+        <sys_updated_on>2019-06-13 19:52:00</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>{{Created or Updated_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>b56493cd4f8233000d648020a310c73c</id>
+        <field>record</field>
+        <id>3d71ef0d4fc233000d648020a310c722</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:49</sys_created_on>
-        <sys_id>796493cd4f8233000d648020a310c741</sys_id>
+        <sys_created_on>2019-06-13 19:51:53</sys_created_on>
+        <sys_id>bd71ef0d4fc233000d648020a310c727</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:49</sys_updated_on>
+        <sys_updated_on>2019-06-13 19:51:53</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3d71ef0d4fc233000d648020a310c722</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 19:52:00</sys_created_on>
+        <sys_id>6371ef0d4fc233000d648020a310c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 19:52:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
-        <id>b56493cd4f8233000d648020a310c73c</id>
+        <id>3d71ef0d4fc233000d648020a310c722</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:57</sys_created_on>
-        <sys_id>ff6493cd4f8233000d648020a310c7cf</sys_id>
+        <sys_created_on>2019-06-13 19:51:53</sys_created_on>
+        <sys_id>f971ef0d4fc233000d648020a310c727</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <sys_updated_on>2019-06-13 19:51:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>b56493cd4f8233000d648020a310c73c</id>
+        <id>3d71ef0d4fc233000d648020a310c722</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:57</sys_created_on>
-        <sys_id>776493cd4f8233000d648020a310c7d0</sys_id>
+        <sys_created_on>2019-06-13 19:51:53</sys_created_on>
+        <sys_id>7171ef0d4fc233000d648020a310c728</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <sys_updated_on>2019-06-13 19:51:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
         <value>work_notes={{9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_link}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>b56493cd4f8233000d648020a310c73c</id>
+        <id>3d71ef0d4fc233000d648020a310c722</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 18:54:49</sys_created_on>
-        <sys_id>fd6493cd4f8233000d648020a310c741</sys_id>
+        <sys_created_on>2019-06-13 19:52:00</sys_created_on>
+        <sys_id>e771ef0d4fc233000d648020a310c7a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 18:54:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <sys_updated_on>2019-06-13 19:52:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>work_notes={{9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_link}}</value>
     </sys_element_mapping>
 </record_update>

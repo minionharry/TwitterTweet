@@ -2,20 +2,18 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Tweet">a6d334bedb711300d86f9444ca961966</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1527cc264fe5b30035e0fdb28110c7fb","name":"plan"}}</plan>
-        <snapshot>c36c8cea4fe5b30035e0fdb28110c7be</snapshot>
+        <snapshot>2a7ad3454fc233000d648020a310c7de</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-05-23 23:17:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>1527cc264fe5b30035e0fdb28110c7fb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>a6d334bedb711300d86f9444ca961966</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_hub_action_plan_1527cc264fe5b30035e0fdb28110c7fb</sys_update_name>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-23 23:40:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 19:21:22</sys_updated_on>
     </sys_hub_action_plan>
 </record_update>

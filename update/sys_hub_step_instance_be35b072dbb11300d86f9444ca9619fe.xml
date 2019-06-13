@@ -14,17 +14,15 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:10:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>be35b072dbb11300d86f9444ca9619fe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Tweet via REST</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_hub_step_instance_be35b072dbb11300d86f9444ca9619fe</sys_update_name>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-23 23:07:43</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 19:18:42</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be35b072dbb11300d86f9444ca9619fe"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -130,9 +128,9 @@
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:16:33</sys_created_on>
         <sys_id>33867c72dbb11300d86f9444ca9619f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2018-05-04 15:16:33</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 19:18:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{{step[12272870-0660-4725-907f-9ce7ed0d17d6].endpointAndQuery}}</value>
     </sys_element_mapping>

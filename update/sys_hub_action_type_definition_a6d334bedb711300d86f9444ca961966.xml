@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
-        <acls/>
+        <acls>3f1857c14fc233000d648020a310c779</acls>
         <active>true</active>
         <annotation>Sample Twitter Integration.
 Posts supplied text to twitter and returns a link to the tweet</annotation>
-        <callable_by_client_api>false</callable_by_client_api>
+        <callable_by_client_api>true</callable_by_client_api>
         <category display_value="Twitter">dbc3b432dbb11300d86f9444ca961983</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>tweet</internal_name>
-        <label_cache>[{"name":"{{action.ah_consumer_key}}","label":"action➛consumer_key","type":"action","ref":""},{"name":"{{action.ah_consumer_secret}}","label":"action➛consumer_secret","type":"action","ref":""},{"name":"{{action.ah_access_token}}","label":"action➛access_token","type":"action","ref":""},{"name":"{{action.ah_access_token_secret}}","label":"action➛access_token_secret","type":"action","ref":""},{"name":"{{action.ah_incident}}","label":"action➛tweet","type":"action","ref":""},{"name":"{{step[12272870-0660-4725-907f-9ce7ed0d17d6].endpointAndQuery}}","label":"step➛Generate Twitter Data➛endpointAndQuery","type":"step","ref":""},{"name":"{{step[5aed812f-0978-4d6d-bd33-55a4a78d5d8f].response_body}}","label":"step➛Tweet via REST➛Response Body","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].t}}","label":"step➛Prepare Worknote➛t","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tw}}","label":"step➛Prepare Worknote➛tw","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].twe}}","label":"step➛Prepare Worknote➛twe","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].twee}}","label":"step➛Prepare Worknote➛twee","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweet}}","label":"step➛Prepare Worknote➛tweet","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetL}}","label":"step➛Prepare Worknote➛tweetL","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLi}}","label":"step➛Prepare Worknote➛tweetLi","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLin}}","label":"step➛Prepare Worknote➛tweetLin","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLink}}","label":"step➛Prepare Worknote➛tweetLink","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>c36c8cea4fe5b30035e0fdb28110c7be</latest_snapshot>
+        <label_cache>[{"name":"{{action.tweet}}","label":"action➛tweet","type":"action","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLinkWorkNote}}","label":"step➛Prepare Worknote➛tweetLinkWorkNote","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLink}}","label":"step➛Prepare Worknote➛tweetLink","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetId}}","label":"step➛Prepare Worknote➛tweetId","type":"step","ref":""},{"name":"{{step[12272870-0660-4725-907f-9ce7ed0d17d6].endpointAndQuery}}","label":"step➛Generate Twitter Data➛endpointAndQuery","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>2a7ad3454fc233000d648020a310c7de</latest_snapshot>
         <master_snapshot>a827cc264fe5b30035e0fdb28110c737</master_snapshot>
         <name>Tweet</name>
         <outputs/>
@@ -21,32 +21,55 @@ Posts supplied text to twitter and returns a link to the tweet</annotation>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:04:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>a6d334bedb711300d86f9444ca961966</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>Tweet</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a6d334bedb711300d86f9444ca961966</sys_update_name>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-23 23:40:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 19:21:22</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6d334bedb711300d86f9444ca961966"/>
     <sys_variable_value action="delete_multiple" query="document_key=a6d334bedb711300d86f9444ca961966"/>
     <sys_element_mapping action="delete_multiple" query="id=a6d334bedb711300d86f9444ca961966"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tweet_id</field>
+        <id>a6d334bedb711300d86f9444ca961966</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 18:32:24</sys_created_on>
+        <sys_id>6d4f0b014f8233000d648020a310c7be</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 18:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a6d334bedb711300d86f9444ca961966</table>
+        <value>{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLink}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tweet_id3</field>
+        <id>a6d334bedb711300d86f9444ca961966</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 18:36:17</sys_created_on>
+        <sys_id>a6201f854f8233000d648020a310c794</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 18:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a6d334bedb711300d86f9444ca961966</table>
+        <value>{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetId}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tweet_link</field>
         <id>a6d334bedb711300d86f9444ca961966</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-05-23 23:07:45</sys_created_on>
         <sys_id>1ae40ca24fe5b30035e0fdb28110c752</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-23 23:07:45</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 18:36:17</sys_updated_on>
         <table>var__m_sys_hub_action_output_a6d334bedb711300d86f9444ca961966</table>
-        <value>{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLink}}</value>
+        <value>{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].tweetLinkWorkNote}}</value>
     </sys_element_mapping>
 </record_update>

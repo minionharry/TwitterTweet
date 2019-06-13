@@ -38,7 +38,7 @@
         <label>consumer_secret</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Tweet">71c93036dbb11300d86f9444ca961990</model>
+        <model display_value="">71c93036dbb11300d86f9444ca961990</model>
         <model_id>71c93036dbb11300d86f9444ca961990</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_71c93036dbb11300d86f9444ca961990</name>
@@ -60,13 +60,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:30:37</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c2c93036dbb11300d86f9444ca9619ab</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>consumer_secret</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_hub_action_input_c2c93036dbb11300d86f9444ca9619ab</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>

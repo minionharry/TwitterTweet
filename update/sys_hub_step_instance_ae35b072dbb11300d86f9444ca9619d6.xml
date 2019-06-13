@@ -14,17 +14,15 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:10:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ae35b072dbb11300d86f9444ca9619d6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Generate Twitter Data</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_hub_step_instance_ae35b072dbb11300d86f9444ca9619d6</sys_update_name>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-23 23:10:22</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 19:21:17</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ae35b072dbb11300d86f9444ca9619d6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -49,9 +47,9 @@
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:10:44</sys_created_on>
         <sys_id>2a35b072dbb11300d86f9444ca9619f9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-23 23:10:22</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 18:52:48</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   	/* Example to post a tweet via IntegrationHub by Arnoud Kooi 
@@ -59,6 +57,11 @@
        REST step to actually tweet */
   
   	var tweet = inputs.tweet;
+  
+  	var consumer_key = gs.getProperty('x_220561_twittertw.consumer_key');
+  	var consumer_secret = gs.getProperty('x_220561_twittertw.consumer_secret');
+  	var access_token = gs.getProperty('x_220561_twittertw.access_token');
+  	var access_token_secret = gs.getProperty('x_220561_twittertw.access_token_secret');
   
     //creates a unique random string (nonce) required by oauth
     var nonce = Math.random().toString(36).substring(2, 15) +
@@ -76,11 +79,11 @@
     //Generating following strings is part of the signature proces, that has to be 
     //followed exactly, in order to be autohorized to tweet on behave of the account
     var autSign = //'include_entities=true&amp;' + //uncomment for debugging twitter example
-        'oauth_consumer_key=' + percentEncode(inputs.consumer_key) + '&amp;' +
+        'oauth_consumer_key=' + percentEncode(consumer_key) + '&amp;' +
         'oauth_nonce=' + percentEncode(nonce) + '&amp;' +
         'oauth_signature_method=HMAC-SHA1&amp;' +
         'oauth_timestamp=' + timeStamp + '&amp;' +
-        'oauth_token=' + percentEncode(inputs.access_token) + '&amp;' +
+        'oauth_token=' + percentEncode(access_token) + '&amp;' +
         'oauth_version=1.0&amp;' +
         'status=' + percentEncode(tweet);
 
@@ -88,8 +91,8 @@
         "POST&amp;" +
         percentEncode(inputs.endpoint) + "&amp;" + percentEncode(autSign);
 
-    var signingKey = percentEncode(inputs.consumer_secret) +
-        "&amp;" + percentEncode(inputs.access_token_secret);
+    var signingKey = percentEncode(consumer_secret) +
+        "&amp;" + percentEncode(access_token_secret);
 
     
     //Hashing and Base 64 encoding, using script CryptoJS library, saved in  a Scriptinclude.
@@ -118,12 +121,12 @@
         'oauth_version="1.0"'.replace(/"/g, '&amp;quot;');
 */
 
-    var qs = '?oauth_consumer_key=' + inputs.consumer_key + '&amp;' +
+    var qs = '?oauth_consumer_key=' + consumer_key + '&amp;' +
         'oauth_nonce=' + nonce + '&amp;' +
         'oauth_signature=' + percentEncode(signature) + '&amp;' +
         'oauth_signature_method=HMAC-SHA1&amp;' +
         'oauth_timestamp=' + timeStamp + '&amp;' +
-        'oauth_token=' + inputs.access_token + '&amp;' +
+        'oauth_token=' + access_token + '&amp;' +
         'oauth_version=1.0&amp;' +
         'status=' + percentEncode(tweet);;
 
@@ -181,6 +184,20 @@
         <sys_updated_on>2018-05-04 15:30:20</sys_updated_on>
         <value>https://api.twitter.com/1.1/statuses/update.json</value>
         <variable display_value="">39b9bcf2dbb11300d86f9444ca9619ea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ae35b072dbb11300d86f9444ca9619d6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 18:52:48</sys_created_on>
+        <sys_id>98f3db8d4f8233000d648020a310c730</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 18:52:48</sys_updated_on>
+        <value>https://api.twitter.com/1.1/statuses/update.json</value>
+        <variable display_value="">98f3db8d4f8233000d648020a310c716</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ae35b072dbb11300d86f9444ca9619d6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -297,10 +314,10 @@
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-05-23 23:10:22</sys_created_on>
         <sys_id>fc8584e24fe5b30035e0fdb28110c702</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-23 23:10:22</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 19:21:17</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_ae35b072dbb11300d86f9444ca9619d6</table>
-        <value>{{action.ah_incident}}</value>
+        <value>{{action.tweet}}</value>
     </sys_element_mapping>
 </record_update>

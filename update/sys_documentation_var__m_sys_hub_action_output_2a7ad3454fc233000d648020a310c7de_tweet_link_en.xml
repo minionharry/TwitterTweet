@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tweet_link" label="Tweet Link Worknote" language="en" table="var__m_sys_hub_action_output_2a7ad3454fc233000d648020a310c7de">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tweet_link</element>
+            <help/>
+            <hint/>
+            <label>Tweet Link Worknote</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_2a7ad3454fc233000d648020a310c7de</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 19:21:21</sys_created_on>
+            <sys_id>367a17454fc233000d648020a310c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tweet Link Worknote</sys_name>
+            <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2a7ad3454fc233000d648020a310c7de_tweet_link_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 19:21:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

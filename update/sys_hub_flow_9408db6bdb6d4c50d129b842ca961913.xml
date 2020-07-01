@@ -45,8 +45,7 @@
     <sys_hub_flow_component action="delete_multiple" query="flow=9408db6bdb6d4c50d129b842ca961913^sys_idNOT INa2a89fabdb6d4c50d129b842ca9619e2,f6a89fabdb6d4c50d129b842ca9619e6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Tweet">a6d334bedb711300d86f9444ca961966</action_type>
+        <action_type/>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -71,19 +70,6 @@
         <ui_id>369f64bc-c7f0-4b5d-a8ee-f0aaa18b203a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a2a89fabdb6d4c50d129b842ca9619e2"/>
-    <sys_element_mapping action="delete_multiple" query="id=a2a89fabdb6d4c50d129b842ca9619e2"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tweet</field>
-        <id>a2a89fabdb6d4c50d129b842ca9619e2</id>
-        <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-12-12 13:18:00</sys_created_on>
-        <sys_id>a2a89fabdb6d4c50d129b842ca9619e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-12-12 13:18:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a6d334bedb711300d86f9444ca961966</table>
-        <value>{{Created or Updated_1.current.number}}: {{Created or Updated_1.current.short_description}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -421,8 +407,7 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=9408db6bdb6d4c50d129b842ca961913^sys_idNOT INa2a89fabdb6d4c50d129b842ca9619e2,f6a89fabdb6d4c50d129b842ca9619e6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Tweet">a6d334bedb711300d86f9444ca961966</action_type>
+        <action_type/>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -447,19 +432,6 @@
         <ui_id>369f64bc-c7f0-4b5d-a8ee-f0aaa18b203a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a2a89fabdb6d4c50d129b842ca9619e2"/>
-    <sys_element_mapping action="delete_multiple" query="id=a2a89fabdb6d4c50d129b842ca9619e2"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tweet</field>
-        <id>a2a89fabdb6d4c50d129b842ca9619e2</id>
-        <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-12-12 13:18:00</sys_created_on>
-        <sys_id>a2a89fabdb6d4c50d129b842ca9619e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-12-12 13:18:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a6d334bedb711300d86f9444ca961966</table>
-        <value>{{Created or Updated_1.current.number}}: {{Created or Updated_1.current.short_description}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>

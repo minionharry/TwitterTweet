@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access/>
+        <acls>3f1857c14fc233000d648020a310c779</acls>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>true</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>tweet_incident</internal_name>
+        <label_cache>[{"name":"2616ebd4-fd02-4afe-94f4-5593508c6ddf.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"2616ebd4-fd02-4afe-94f4-5593508c6ddf.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"8baef66c-9bdb-4624-90b8-dc75aafbd16f.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"8baef66c-9bdb-4624-90b8-dc75aafbd16f.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_id3","label":"1➛Tweet ID","reference_display":"Tweet ID","type":"string","base_type":"string"},{"name":"9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_id","label":"1➛Tweet Link","reference_display":"Tweet Link","type":"string","base_type":"string"},{"name":"9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_link","label":"1➛Tweet Link Worknote","type":"string","base_type":"string"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>ab7277094f0633000d648020a310c78a</latest_snapshot>
+        <master_snapshot>776493cd4f8233000d648020a310c7dc</master_snapshot>
+        <name>Tweet Incident</name>
+        <outputs/>
+        <remote_trigger_id>97f93436dbb11300d86f9444ca96197e</remote_trigger_id>
+        <run_as/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:53</sys_created_on>
+        <sys_id>a3d6b0bedb711300d86f9444ca961992</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Tweet Incident</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_update_name>sys_hub_flow_a3d6b0bedb711300d86f9444ca961992</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-13 21:06:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=a3d6b0bedb711300d86f9444ca961992"/>
+    <sys_variable_value action="DELETE" query="document_key=a3d6b0bedb711300d86f9444ca961992"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</application>
+        <file_path/>
+        <instance_id>64990018db973ec03353f22ebf9619c2</instance_id>
+        <instance_name>empakooi</instance_name>
+        <name>sys_hub_flow_a3d6b0bedb711300d86f9444ca961992</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access/>
+        <acls>3f1857c14fc233000d648020a310c779</acls>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>true</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>tweet_incident</internal_name>
+        <label_cache>[{"name":"2616ebd4-fd02-4afe-94f4-5593508c6ddf.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"2616ebd4-fd02-4afe-94f4-5593508c6ddf.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"8baef66c-9bdb-4624-90b8-dc75aafbd16f.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"8baef66c-9bdb-4624-90b8-dc75aafbd16f.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_id3","label":"1➛Tweet ID","reference_display":"Tweet ID","type":"string","base_type":"string"},{"name":"9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_id","label":"1➛Tweet Link","reference_display":"Tweet Link","type":"string","base_type":"string"},{"name":"9e37a837-39ef-49f3-a809-05c8f898c1cb.tweet_link","label":"1➛Tweet Link Worknote","type":"string","base_type":"string"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>ab7277094f0633000d648020a310c78a</latest_snapshot>
+        <master_snapshot>776493cd4f8233000d648020a310c7dc</master_snapshot>
+        <name>Tweet Incident</name>
+        <outputs/>
+        <remote_trigger_id>97f93436dbb11300d86f9444ca96197e</remote_trigger_id>
+        <run_as/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:53</sys_created_on>
+        <sys_id>a3d6b0bedb711300d86f9444ca961992</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Tweet Incident</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_update_name>sys_hub_flow_a3d6b0bedb711300d86f9444ca961992</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-13 21:06:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3d6b0bedb711300d86f9444ca961992"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a3d6b0bedb711300d86f9444ca961992"/>
+</record_update>]]></payload>
+        <payload_hash>1406584954</payload_hash>
+        <record_name>Tweet Incident</record_name>
+        <reverted_from/>
+        <source>48d69b67db6d4c50d129b842ca961917</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-12-12 13:10:15</sys_created_on>
+        <sys_id>95e6df67db6d4c50d129b842ca961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16efa3b3a9f0000001</sys_recorded_at>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-12-12 13:10:15</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>d1e6df67d96d4c506c86c16961a77469</update_guid>
+        <update_guid_history>d1e6df67d96d4c506c86c16961a77469:0,fc765b27e86d4c50626141b6d32994e3:1700900613,a5ddc0ae78e5b300aa78b22eb1e4c1fd:30943699,cad20cae6fa5b3009a09e4ac161b99ff:839149289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-12-12 13:14:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>250a746d3f5643b3860bd906065116e1</sys_id>
+        <sys_metadata>a3d6b0bedb711300d86f9444ca961992</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tweet Incident</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_scope_delete display_value="">a9fb17facabe4490b18fe2b365f22b90</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_a3d6b0bedb711300d86f9444ca961992</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_a3d6b0bedb711300d86f9444ca961992">95e6df67db6d4c50d129b842ca961969</sys_update_version>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-12-12 13:14:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

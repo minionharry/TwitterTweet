@@ -130,13 +130,11 @@ this._hasher;e=d.finalize(e);d.reset();return d.finalize(this._oKey.clone().conc
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2018-05-04 15:21:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>afa7b8b2dbb11300d86f9444ca9619fd</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>CryptoJS</sys_name>
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_policy>read</sys_policy>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_update_name>sys_script_include_afa7b8b2dbb11300d86f9444ca9619fd</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>

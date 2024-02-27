@@ -106,7 +106,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-12-12 13:14:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
         <sys_id>250a746d3f5643b3860bd906065116e1</sys_id>
         <sys_metadata>a3d6b0bedb711300d86f9444ca961992</sys_metadata>
@@ -115,7 +114,6 @@
         <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
         <sys_scope_delete display_value="">a9fb17facabe4490b18fe2b365f22b90</sys_scope_delete>
         <sys_update_name>sys_hub_flow_a3d6b0bedb711300d86f9444ca961992</sys_update_name>

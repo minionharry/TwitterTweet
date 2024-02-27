@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment">
+    <sn_pipeline_environment action="INSERT_OR_UPDATE">
+        <instance_credential display_value="x_220561_twittertw.Dev_Twitter">66db0be697e042100280b627f053af21</instance_credential>
+        <instance_id>582cb93adb3c90d0566750b6f4961915</instance_id>
+        <instance_type>dev</instance_type>
+        <instance_url>https://dev104267.service-now.com/</instance_url>
+        <is_controller>false</is_controller>
+        <name>Dev Twitter</name>
+        <sys_class_name>sn_pipeline_environment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 10:24:46</sys_created_on>
+        <sys_id>bf3b8fa697e042100280b627f053af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dev Twitter</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_update_name>sn_pipeline_environment_bf3b8fa697e042100280b627f053af9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 10:24:46</sys_updated_on>
+    </sn_pipeline_environment>
+</record_update>
